@@ -1,0 +1,11 @@
+<select class="form-select" aria-label="Default select example" [(ngModel)]="filterValue" (change)="filterAdmissions()">
+    <option value="Select Value" selected>Select Value</option>
+    <option *ngFor="let filter of filterData" [value]="filter.uni_name">{{ filter.uni_name }}</option>
+  </select>
+  
+  <div *ngFor="let university of filteredAdmissions">
+    <h1>{{ university.uni_name }}</h1>
+    <h1>{{ university.city }}</h1>
+    <p></p>
+  </div>
+  

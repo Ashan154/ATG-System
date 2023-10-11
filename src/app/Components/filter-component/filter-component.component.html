@@ -1,0 +1,41 @@
+<!-- HTML for filter Start -->
+<div class="citysection ">
+    <select class="form-select" aria-label="Default select example" [(ngModel)]="filterValue"
+        (change)="filterAdmissions()">
+        <option value="Select Value">Select Value</option>
+        <option *ngFor="let filter of filterData" [value]="filter.city">{{ filter.city }}</option>
+    </select>
+</div>
+
+<!-- HTML for filter End -->
+
+<!-- HTML for Card Start -->
+<div class="background">
+    <div class="card mb-3 col-sm-3 h6 "
+        *ngFor="let city of filteredAdmissions | paginate: { itemsPerPage:itemsPerPage , currentPage: p }">
+
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src={{city.img}} class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">{{city.uni_name}}</h5>
+                    <div class="cta-section">
+                        <div>{{city.city}}</div>
+                        <a href="#" class="btn btn-light">{{city.btn_text}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- HTML for Card End -->
+<!-- --PAGINATION CONTROL START-- -->
+<div class="container mypagination">
+    <pagination-controls (pageChange)="p = $event" previousLabel=""
+    nextLabel=""></pagination-controls>
+</div>
+
+<!-- --test-- -->

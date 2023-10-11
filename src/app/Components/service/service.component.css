@@ -1,0 +1,36 @@
+div.col > div.card {
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+}
+
+div.col:hover > div.card {
+    background-color: rgb(234, 184, 48);
+    color: white;
+    cursor: pointer;
+}
+
+div.col > div.card > .blueColor {
+    color: rgb(234, 184, 48);
+}
+
+div.col:hover > div.card > .blueColor {
+    color: white;
+}
+
+h3{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+  
+}
+.a{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+}

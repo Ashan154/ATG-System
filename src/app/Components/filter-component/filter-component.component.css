@@ -1,0 +1,137 @@
+.card {
+    
+    flex-direction: row;
+    color: #0a0a0a;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+    display: inline-flex;
+    top: 5%;
+    /* max-width: fit-content;  */
+    align-items: center;
+    margin-left: 1%;
+    margin-top: 2%;
+    width: 30%;
+    height: 175px;
+}
+
+ .background{
+    background-color: rgba(225, 225, 225,0.18);
+    text-align: center;
+    padding: 80px;
+ }
+.card:hover {
+    background-color: rgb(234, 184, 48);
+    color: #fff;
+}
+
+.card img {
+    max-width: 100%;
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 2em;
+}
+
+.card-body {
+    display: flex;
+    justify-content:space-between;
+}
+
+.text-section {
+    max-width: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.cta-section {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.cta-section .btn {
+    padding: 0.3em 0.5em;
+    background-color: rgb(234, 184, 48);
+    color: #fff;
+}
+
+.card:hover .card-body .cta-section .btn {
+    padding: 0.3em 0.5em;
+    background-color: #fff ;
+    color: rgb(234, 184, 48);
+}
+
+div .card-body .card-title{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+div .cta-section .btn {
+    width: 130%;
+    margin-top: 10%;
+    
+}
+
+@media screen and (max-width: 475px) {
+    .card {
+        font-size: 0.9em;
+    }
+}
+
+/* dropdown css */
+ .form-select{
+    margin-top: 60px;
+    height: 60px;
+    width: 300px;
+    margin-left: 100px;
+    
+ 
+ }
+
+ div.citysection{
+    /* position: relative; */
+    height: 20%;
+    background-color:rgb(234, 184, 48);
+    display: flow-root;
+    margin: 4%;
+    border-radius: 25px 25px 25px 25px;
+    
+ }
+ div.contanier{
+    position: absolute;
+    display: flex;
+    size: 20%;
+ }
+
+ pagination-controls {
+    font-size: 2em;
+    position: absolute;
+    left: 35%;
+    transform: translateY(-35%);
+ }
+
+ .mypagination ::ng-deep .ngx-pagination .current {
+    background: rgb(234, 184, 48);
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+    /* padding: 10px 0px 0px 14px; */
+    position: relative;
+    top: 10px;
+ }
+ 
+ .mypagination ::ng-deep .ngx-pagination li {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+    /* padding: 9px 0px 0px 4px; */
+ }
+
+ .mypagination ::ng-deep .ngx-pagination li:last-child {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+    /* padding: 9px 0px 0px 1px; */
+ }

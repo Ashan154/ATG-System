@@ -1,0 +1,37 @@
+<app-navbar></app-navbar>
+<div class="masthead" style="background-image: url('assets/background.jpg');">
+    <div class="color-overlay d-flex flex-column justify-content-center align-items-center">
+        <h1>Universities</h1>
+        <p>Choose Right Institude for Better Futures</p>
+    </div>
+</div>
+
+
+
+<div id="rs-courses-2" class="rs-courses-2 sec-spacer">
+    <div class="container">
+        <div class="sec-title mb-50 text-center">
+            <h2>{{city}} Universisties</h2>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6" *ngFor="let university of admissions">
+                <div class="cource-item">
+                    <div class="course-body">
+                        <h4 class="course-title">
+                            <img src="{{university.img}}">
+                            <a href="bahria-university.html" target="_blank">{{university.uni_name}} <br>
+                                {{university.city}}</a>
+                        </h4>
+                        <a href="bahria-university.html" target="_blank" class="cource-btn">{{university.btn_text}}</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- //////////////// -->
+
+<app-footer></app-footer>
