@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-filter-component',
-  templateUrl: './filter-component.component.html',
-  styleUrls: ['./filter-component.component.css']
+  selector: 'app-filter-section',
+  templateUrl: './filter-section.component.html',
+  styleUrls: ['./filter-section.component.css']
 })
-export class FilterComponentComponent {
-
+export class FilterSectionComponent {
   filterValue: string = 'Select Value';
   p: number=1;
   itemsPerPage: number=9;

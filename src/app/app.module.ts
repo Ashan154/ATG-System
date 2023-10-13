@@ -21,11 +21,9 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { TestFIlterComponent } from './Components/test-filter/test-filter.component';
-
 import { FormsModule } from '@angular/forms';
-import { FilterComponent } from './Components/filter/filter.component';
-import { FilterComponentComponent } from './Components/filter-component/filter-component.component';
 import{NgxPaginationModule}from'ngx-pagination';
+import { FilterSectionComponent } from './admissions/filter-section/filter-section.component';
 
 
 
@@ -45,8 +43,7 @@ import{NgxPaginationModule}from'ngx-pagination';
     HomepageComponent,
     AdmissionsComponent,
     TestFIlterComponent,
-    FilterComponent,
-    FilterComponentComponent,
+    FilterSectionComponent,
     
   ],
   imports: [
