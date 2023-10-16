@@ -6,6 +6,7 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { HomepageComponent } from './Components/homepage/homepage.component';
 import { OurServicesComponent } from './Components/our-services/our-services.component';
 import { MiddlelayerComponent } from './Components/middlelayer/middlelayer.component';
+import { AdsComponent } from './Adsmodule/ads/ads.component';
 
 const routes: Routes = [
  {path: '',  component : HomepageComponent},
@@ -13,7 +14,7 @@ const routes: Routes = [
  {path: 'admissions', component : AdmissionsComponent},
  {path:'Services', component:OurServicesComponent},
  { path: 'About', component:MiddlelayerComponent },
-
+ { path: 'Ads', component:AdsComponent },
 ];
 
 @NgModule({

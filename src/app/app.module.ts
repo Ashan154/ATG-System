@@ -22,6 +22,8 @@ import { TestFIlterComponent } from './Components/test-filter/test-filter.compon
 import { FormsModule } from '@angular/forms';
 import{NgxPaginationModule}from'ngx-pagination';
 import { FilterSectionComponent } from './admissions/filter-section/filter-section.component';
+import { AdsComponent } from './Adsmodule/ads/ads.component';
+import { FilterAdsComponent } from './Adsmodule/filter-ads/filter-ads.component';
 
 
 
@@ -42,6 +44,9 @@ import { FilterSectionComponent } from './admissions/filter-section/filter-secti
     AdmissionsComponent,
     TestFIlterComponent,
     FilterSectionComponent,
+    AdsComponent,
+    FilterAdsComponent,
+    
     
   ],
   imports: [
