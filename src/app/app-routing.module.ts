@@ -4,18 +4,15 @@ import { AdmissionsComponent } from './admissions/admissions/admissions.componen
 import { AppComponent } from './app.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { HomepageComponent } from './Components/homepage/homepage.component';
+import { OurServicesComponent } from './Components/our-services/our-services.component';
+import { MiddlelayerComponent } from './Components/middlelayer/middlelayer.component';
 
 const routes: Routes = [
- {
-  path: '', 
-  component : HomepageComponent 
-},
+ {path: '',  component : HomepageComponent},
 //  {path: 'Home', component : FooterComponent },
- {
-  path: 'admissions', 
-  component : AdmissionsComponent 
-},
- 
+ {path: 'admissions', component : AdmissionsComponent},
+ {path:'Services', component:OurServicesComponent},
+ { path: 'About', component:MiddlelayerComponent },
 
 ];
 

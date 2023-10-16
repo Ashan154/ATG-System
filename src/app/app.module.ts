@@ -14,9 +14,7 @@ import { AboutUsComponent } from './Components/about-us/about-us.component';
 import { OurServicesComponent } from './Components/our-services/our-services.component';
 import { AdmissionsComponent } from './admissions/admissions/admissions.component';
 import { HomepageComponent } from './Components/homepage/homepage.component';
-
 // import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatFormFieldModule } from '@angular/material/form-field';

@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component , ElementRef, Renderer2} from '@angular/core';
+import { scrollToSection } from '../shared/scroll-helper';
+
 
 @Component({
   selector: 'app-navbar',
@@ -6,15 +8,31 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-//   window.addEventListener("scroll", () => {
-//     const navbar = document.querySelector(".navbar") as HTMLElement | null;
-//     if (window.scrollY > 50 && navbar) {
-//         navbar.classList.add("scrolled");
-//     } else if (navbar) {
-//         navbar.classList.remove("scrolled");
+  scrollToSection = scrollToSection;
+
+// constructor(private renderer: Renderer2) {}
+
+// scrollToAboutUs() {
+//   const aboutUsElement = document.getElementById('aboutUs');
+//   if (aboutUsElement) {
+//     const yOffset = aboutUsElement.getBoundingClientRect().top;
+//     const headerHeight = 60; // Replace this with your header's actual height in pixels
+//     const offset = yOffset - headerHeight;
+//     if (offset > 0) {
+//       window.scrollTo({ top: offset, behavior: 'smooth' });
 //     }
-// });
-
-
+//   }
+// }
+// scrollToServices() {
+//   const servicesElement = document.getElementById('Services'); // Replace with the actual ID of your Services section
+//   if (servicesElement) {
+//     const yOffset = servicesElement.getBoundingClientRect().top;
+//     const headerHeight = 60; // Replace with your header's actual height in pixels
+//     const offset = yOffset - headerHeight;
+//     if (offset > 0) {
+//       window.scrollTo({ top: offset, behavior: 'smooth' });
+//     }
+//   }
+// }
 
 }

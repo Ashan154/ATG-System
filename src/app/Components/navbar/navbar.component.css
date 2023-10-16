@@ -4,6 +4,9 @@
 /* div.offcanvas-header > button {
     color: rgb(234, 184, 48);
 } */
+a{
+    color: rgb(234, 184, 48);
+}
 nav {
     margin: 10px 10px;
     background-color: transparent;
@@ -12,7 +15,7 @@ nav {
 
 
 .navbar-light .navbar-nav .nav-link {
-    color: white;
+    color: rgb(234, 184, 48);
 }
 
 div.offcanvas-body > ul > li {

@@ -21,16 +21,16 @@
             <div class="offcanvas-body p-lg-0">
                 <ul class="navbar-nav justify-content-end fs-5 flex-grow-1 pe-3">
                     <li class="nav-item mx-2">
-                        <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+                        <a class="nav-link " aria-current="page" routerLink="">Home</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link"  routerLinkActive="active" (click)="scrollToSection('aboutUs')">About</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" (click)="scrollToSection('Services')">Services</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" >Contact</a>
                     </li>
                 </ul>
             </div>
