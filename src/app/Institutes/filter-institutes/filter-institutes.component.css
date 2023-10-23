@@ -41,12 +41,12 @@
     margin: auto;
     padding: 0.5em;
     border-radius: 2em;
-    margin-top: 45px;
 }
 
 .card-body {
     display: flex;
     justify-content:space-between;
+    margin-top: 30px ;
 }
 
 .text-section {
@@ -60,35 +60,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-top: 63px;
+    justify-content: space-between;
 }
 
-.IdleDeadline_text {
-    padding: 0.3em 0.2em;
-    color: #5a5959;
-    display: flex;
-    margin-top: 95px;
-    width: 179px;
-    text-decoration: none;
-}
-.Deadline >label{
-    display: flex;
-    margin-top: 100px;
-    margin-left: -73px;
+.cta-section .btn {
+    padding: 0.3em 0.5em;
     background-color: rgb(234, 184, 48);
-    width: 70px;
-    color: white;
-    border-radius: 3px 3px 0px 0px;
-    display: center;
-    justify-content: center;
-    position: absolute;
-
-}
-
-div> .Deadline{
-    margin-top: 59px;
-    margin-left: 25px;
-    margin-right: -19px;
+    color: #fff;
 }
 .city {
    background-color:rgb(234, 184, 48) ;
@@ -111,9 +89,7 @@ div .card-body .card-title{
     font-size: 19px;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
-    margin-top: 70px;
-    justify-content: center;
+    
 }
 div .cta-section .btn {
     /* width: 130%;

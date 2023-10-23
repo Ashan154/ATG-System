@@ -24,6 +24,9 @@ import{NgxPaginationModule}from'ngx-pagination';
 import { FilterSectionComponent } from './admissions/filter-section/filter-section.component';
 import { AdsComponent } from './Adsmodule/ads/ads.component';
 import { FilterAdsComponent } from './Adsmodule/filter-ads/filter-ads.component';
+import { InstitutesComponent } from './Institutes/institutes/institutes.component';
+import { FilterInstitutesComponent } from './Institutes/filter-institutes/filter-institutes.component';
+import { DonationComponent } from './Bookdonation/donation/donation.component';
 
 
 
@@ -46,6 +49,9 @@ import { FilterAdsComponent } from './Adsmodule/filter-ads/filter-ads.component'
     FilterSectionComponent,
     AdsComponent,
     FilterAdsComponent,
+    InstitutesComponent,
+    FilterInstitutesComponent,
+    DonationComponent,
     
     
   ],

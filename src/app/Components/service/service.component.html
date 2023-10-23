@@ -1,22 +1,15 @@
 <div class="row row-cols-2 row-cols-lg-6 row-cols-md-3 row-cols-sm-2 g-4">
     <div class="col">
-        <div class="card h-90 pt-4" routerLink="/admissions">
+        <div class="card h-90 pt-4" routerLink="/Institutes">
             <fa-icon class="fa-4x d-flex justify-content-center blueColor" [icon]="Shield"  ></fa-icon>
             <div class="card-body d-flex justify-content-center">
                 <h3 class="card-title" id="center" >Institutes</h3>
             </div>
         </div>
     </div>
+    
     <div class="col">
-        <div class="card h-90 pt-4">
-            <fa-icon class="fa-4x d-flex justify-content-center blueColor" [icon]="UserGroup"></fa-icon>
-            <div class="card-body d-flex justify-content-center">
-                <h3 class="card-title" id="center">CV Builder</h3>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card h-90 pt-4">
+        <div class="card h-90 pt-4" routerLink="/admissions">
             <fa-icon class="fa-4x d-flex justify-content-center blueColor" [icon]="AddressCard"></fa-icon>
             <div class="card-body d-flex justify-content-center content">
                 <h3 class="card-title" >Admissions</h3>
@@ -31,12 +24,20 @@
             </div>
         </div>
     </div>
-    
     <div class="col">
         <div class="card h-90 pt-4">
+            <fa-icon class="fa-4x d-flex justify-content-center blueColor" [icon]="UserGroup"></fa-icon>
+            <div class="card-body d-flex justify-content-center">
+                <h3 class="card-title" id="center">CV Builder</h3>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col">
+        <div class="card h-90 pt-4" routerLink="Donation">
             <fa-icon class="fa-4x d-flex justify-content-center blueColor" [icon]="BookOpen"></fa-icon>
             <div class="card-body d-flex justify-content-center">
-                <h3 class="card-title">Liberary</h3>
+                <h3 class="card-title">Book Donation</h3>
             </div>
         </div>
     </div>

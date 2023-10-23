@@ -20,7 +20,7 @@ h1 {
 p {
     margin-top: 2%;
     font-size: 1.3rem;
-    line-height: 1.7rem;
+    line-height: 0.5rem;
     padding: 0px 20px;
 }
 
@@ -126,9 +126,9 @@ button:hover {
     background-color: #0056b3;
   }
   
- 
-  app-filter-section{
+  app-filter-institutes {
     position: relative;
     top: -185px;
-
   }
+ 
+  

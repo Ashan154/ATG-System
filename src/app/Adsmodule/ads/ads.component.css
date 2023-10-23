@@ -130,4 +130,11 @@ button:hover {
     position: absolute;
     top: 10px;
   } */
-  
+  app-filter-ads{
+    position: relative;
+    top: -185px;
+
+  }
+  @media screen {
+    
+  }

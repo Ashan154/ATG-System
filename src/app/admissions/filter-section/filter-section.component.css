@@ -46,6 +46,7 @@
 .card-body {
     display: flex;
     justify-content:space-between;
+    margin-top: 30px;
 }
 
 .text-section {
@@ -85,8 +86,10 @@ color: #fff;
 }
 
 div .card-body .card-title{
-    font-size: 22px;
+    font-size: 19px;
+    font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     
 }
 div .cta-section .btn {
